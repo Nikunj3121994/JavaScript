@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<script type="text/javascript">
+    function person(name, age){
+    	this.name = name;
+    	this.age  = age;
+    	this.yearsleftToRetire = yearsleft;
+    }
+
+    function yearsleft(){
+    	var numOfYears = 65 - this.age;
+    	return numOfYears;
+
+
+
+    }   
+    var melvis = new person("Melvis Kunta", 30);
+    
+
+
+</script>
+</head>
+<body>
+
+
+<script type="text/javascript">   
+
+document.write(melvis.yearsleftToRetire());
+
+</script>
+
+</body>
+</html>
